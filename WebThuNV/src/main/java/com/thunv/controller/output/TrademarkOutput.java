@@ -1,5 +1,7 @@
-package com.thunv.controller.api.output;
+package com.thunv.controller.output;
 
-public class TrademarkOutput extends BaseOutput{
+import com.thunv.dto.TrademarkDTO;
+
+public class TrademarkOutput extends BaseOutput<TrademarkDTO>{
 
 }

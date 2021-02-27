@@ -1,6 +1,6 @@
-package com.thunv.controller.api;
+package com.thunv.controller;
 
-import com.thunv.controller.api.output.CategoryOutput;
+import com.thunv.controller.output.CategoryOutput;
 import com.thunv.dto.CategoryDTO;
 import com.thunv.service.ICategoryService;
 import org.springframework.data.domain.PageRequest;
@@ -22,24 +22,24 @@ public class CategoryAPI {
 
     @GetMapping
     public ResponseEntity<CategoryOutput> showCategories(@RequestParam(value = "page", required = false) Integer page,
-                                                        @RequestParam(value = "limit", required = false) Integer limit){
+                                                         @RequestParam(value = "limit", required = false) Integer limit){
         CategoryOutput result = new CategoryOutput();
-        if(page!= null && limit != null){
+        if (page != null && limit != null){
             result.setPage(page);
             Pageable pageable = PageRequest.of(page - 1, limit);
             result.setTotalPage((int) Math.ceil((double) (categoryService.totalItem()) / limit));
             result.setListResult(categoryService.findAll(pageable));
-        }else{
+        }else {
             result.setListResult(categoryService.findAll());
         }
-        if(StringUtils.isEmpty(result)){
+        if (StringUtils.isEmpty(result)){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<CategoryDTO> getCategory(@PathVariable long id) {
+    public ResponseEntity<CategoryDTO> getCategory(@PathVariable(value = "id") long id) {
         CategoryDTO categoryDTO = categoryService.findById(id);
         return new ResponseEntity<>(categoryDTO, HttpStatus.OK);
     }
@@ -51,14 +51,14 @@ public class CategoryAPI {
     }
 
     @PutMapping(value = "/{id}")
-    public ResponseEntity<CategoryDTO> updateCategory(@RequestBody CategoryDTO model, @PathVariable long id){
+    public ResponseEntity<CategoryDTO> updateCategory(@RequestBody CategoryDTO model, @PathVariable(value = "id") long id){
         model.setId(id);
         CategoryDTO categoryDTO = categoryService.save(model);
         return new ResponseEntity<>(categoryDTO, HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/{id}")
-    public ResponseEntity<HttpStatus> deleteCategory(@PathVariable long id) {
+    public ResponseEntity<HttpStatus> deleteCategory(@PathVariable(value = "id") long id) {
         categoryService.delete(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8730dfef-1c5a-4103-9ba5-4e2308316841" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/config/JpaAuditingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/CategoryAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/ProductAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/TrademarkAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/BaseOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/CategoryOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/ProductOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/TrademarkOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/CategoryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/IConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/ProductConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/TrademarkConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/TrademarkDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/TrademarkEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/DuplicateRecordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/TrademarkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/ITrademarkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/TrademarkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1opOwFPLGtsCCO8VYZ9JLriu1f9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MyComputer\Desktop\Websss\WebThuNV\src\main\java\com\thunv\converter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="WebThuNV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thunv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thunv.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8730dfef-1c5a-4103-9ba5-4e2308316841" name="Default Changelist" comment="" />
+      <created>1613980301812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613980301812</updated>
+      <workItem from="1613980306134" duration="3570000" />
+      <workItem from="1614063660178" duration="14429000" />
+      <workItem from="1614152559978" duration="13477000" />
+      <workItem from="1614240613717" duration="10062000" />
+      <workItem from="1614327951885" duration="11317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613980531349">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1613980531349" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1614333551909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614333551909" />
+    <state x="164" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614156547062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="164" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1614156547062" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1614159207920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614159207920" />
+    <state x="429" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614156521603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1614156521603" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.1.bottom" timestamp="1614339708437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614339708437" />
+    <state width="1323" height="171" key="GridCell.Tab.1.center" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.1.left" timestamp="1614339708436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
+    <state width="1323" height="171" key="GridCell.Tab.1.right" timestamp="1614339708437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614339708437" />
+    <state width="1323" height="214" key="GridCell.Tab.2.bottom" timestamp="1614250801384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
+    <state width="1323" height="214" key="GridCell.Tab.2.center" timestamp="1614250801384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
+    <state width="1323" height="214" key="GridCell.Tab.2.left" timestamp="1614250801384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
+    <state width="1323" height="214" key="GridCell.Tab.2.right" timestamp="1614250801384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1614074915142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614074915142" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1614242454183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1614242454183" />
+    <state x="413" y="121" key="extract.method.dialog" timestamp="1614245013466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="121" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1614245013466" />
+    <state x="65" y="24" key="new project wizard" timestamp="1613981993515">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1613981993515" />
+  </component>
+</project>

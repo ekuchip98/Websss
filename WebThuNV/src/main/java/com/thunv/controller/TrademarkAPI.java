@@ -1,6 +1,6 @@
-package com.thunv.controller.api;
+package com.thunv.controller;
 
-import com.thunv.controller.api.output.TrademarkOutput;
+import com.thunv.controller.output.TrademarkOutput;
 import com.thunv.dto.TrademarkDTO;
 import com.thunv.service.impl.TrademarkService;
 import org.springframework.data.domain.PageRequest;
@@ -22,7 +22,7 @@ public class TrademarkAPI {
     
     @GetMapping
     public ResponseEntity<TrademarkOutput> showTrademarks(@RequestParam(value = "page", required = false) Integer page,
-                                                           @RequestParam(value = "limit", required = false) Integer limit){
+                                                          @RequestParam(value = "limit", required = false) Integer limit){
         TrademarkOutput result = new TrademarkOutput();
         if (page != null && limit != null){
             result.setPage(page);
@@ -32,7 +32,7 @@ public class TrademarkAPI {
         }else {
             result.setListResult(trademarkService.findAll());
         }
-        if(StringUtils.isEmpty(result)){
+        if (StringUtils.isEmpty(result)){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
@@ -41,6 +41,19 @@ public class TrademarkAPI {
     @GetMapping(value = "/{id}")
     public ResponseEntity<TrademarkDTO> getTrademark(@PathVariable long id){
         TrademarkDTO trademarkDTO = trademarkService.findById(id);
+        return new ResponseEntity<>(trademarkDTO, HttpStatus.OK);
+    }
+
+    @PostMapping
+    public ResponseEntity<TrademarkDTO> createTrademark(@RequestBody TrademarkDTO model){
+        TrademarkDTO trademarkDTO = trademarkService.save(model);
+        return new ResponseEntity<>(trademarkDTO, HttpStatus.CREATED);
+    }
+
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<TrademarkDTO> updateTrademark(@RequestBody TrademarkDTO model, @PathVariable long id){
+        model.setId(id);
+        TrademarkDTO trademarkDTO = trademarkService.save(model);
         return new ResponseEntity<>(trademarkDTO, HttpStatus.OK);
     }
 

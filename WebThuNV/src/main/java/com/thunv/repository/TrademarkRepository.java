@@ -1,4 +1,7 @@
 package com.thunv.repository;
 
-public interface TrademarkRepository {
+import com.thunv.entity.TrademarkEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TrademarkRepository extends JpaRepository<TrademarkEntity, Long> {
 }

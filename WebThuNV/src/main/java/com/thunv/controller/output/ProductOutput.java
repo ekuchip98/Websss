@@ -1,4 +1,6 @@
-package com.thunv.controller.api;
+package com.thunv.controller.output;
 
-public class ProductOutput {
+import com.thunv.dto.ProductDTO;
+
+public class ProductOutput extends BaseOutput<ProductDTO> {
 }

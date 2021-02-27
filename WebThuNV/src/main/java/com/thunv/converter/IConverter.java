@@ -1,4 +1,4 @@
-package com.sapo.edu.converter;
+package com.thunv.converter;
 
 
 public interface IConverter<E, T> {
