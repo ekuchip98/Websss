@@ -20,41 +20,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8730dfef-1c5a-4103-9ba5-4e2308316841" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/config/JpaAuditingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/CategoryAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/ProductAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/TrademarkAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/BaseOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/CategoryOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/ProductOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/TrademarkOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/CategoryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/IConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/ProductConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/TrademarkConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/TrademarkDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/RoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/TrademarkEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/CustomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/DuplicateRecordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/TrademarkRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/ITrademarkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/TrademarkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebThuNV/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/ProductDetailAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/output/ProductDetailOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/ProductDetailConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/ProductDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/ConstraintViolationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/repository/ProductDetailReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/IProductDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/ProductDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01a392cee47509017645d385dd9c9600aa69e346" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/0233b4b444ef66f08cfc6e72fdb90a3c195d046e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed19100f5b8b7ee71c3d7e538219ff13d280b89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20fbc37ce78e70b3df9cbaf4e9986ed10dee8828" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a1d466019a9d0db1c1900f5680bce53f56cb5b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f9626db6c7a5c9a179639cb5fcc4be8ffd0622e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36ccf19c890df8796245d9ff0ebbeadfaf6c5295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a4258b1b2a85dd79fa34c951328895d53e632a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3ba6f8d47c17108b7b183e859ff3667a6819537f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5793e3240545ae3036dd1c0f0c931a8606258a69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63302086af830b78e0e6eb7694a626a81d85c4d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/697baeded9bfb512a2f2cd6a15b282b2f4209e8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a9f81df9778f9cb4814bdd1196a258aca219406" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f4c656792f8ec78342731e2ae8f27992c912dc0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70eeba648593183a28f28e49cf27944a098a16e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76ed126100395f8fcc1040e46ed7f3d80d8a1ab8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78d18d166233331408bdaa127047ab2b9e237e73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79a054404ba1ec4d74628e745616e1e413b9d0f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83a60f4e8636e34d98ce5107e3187e550f9e3bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb625d5ea0b7683f11198c251493fb199dd1f394" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cee88f795a6c8e4fbdf95675402802c918fb6491" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf02b0a54aafe4fdfb6b2d48ab3a9d1cfca591c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfcddede43b09e8681cdc2b5e7710e84ffe176d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1eacac62643f9c21d57e01cc2fd51fad924bb60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/CategoryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/CategoryAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/ProductAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/controller/ProductAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/ProductConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/converter/ProductConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductDetailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductDetailEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/TrademarkEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/TrademarkEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/src/main/java/com/thunv/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/controller/CategoryAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/controller/CategoryAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/converter/ProductConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/converter/ProductConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/dto/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/CategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/CategoryEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/ProductDetailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/ProductDetailEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/RoleEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/TrademarkEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/TrademarkEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/exception/CustomExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/exception/CustomExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/IProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/impl/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/impl/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/impl/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebThuNV/target/classes/com/thunv/service/impl/ProductService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +122,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thunv.controller.output" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MyComputer\Desktop\Websss\WebThuNV\src\main\java\com\thunv\converter" />
     </key>
@@ -133,6 +164,11 @@
       <workItem from="1614152559978" duration="13477000" />
       <workItem from="1614240613717" duration="10062000" />
       <workItem from="1614327951885" duration="11317000" />
+      <workItem from="1614414134648" duration="9712000" />
+      <workItem from="1614499764562" duration="5027000" />
+      <workItem from="1614505001404" duration="3609000" />
+      <workItem from="1614586543881" duration="9749000" />
+      <workItem from="1614759590200" duration="9748000" />
     </task>
     <servers />
   </component>
@@ -156,10 +192,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1613980531349" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1614333551909">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1614591922081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614333551909" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614591922081" />
     <state x="164" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614156547062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,54 +208,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="429" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1614156521603" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1614769442191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614769442191" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1614769442191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614769442191" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1614769442190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614769442190" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1614769442191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.1.bottom" timestamp="1614339708437">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614769442191" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614339708437" />
-    <state width="1323" height="171" key="GridCell.Tab.1.center" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.1.left" timestamp="1614339708436">
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1614769442191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614339708436" />
-    <state width="1323" height="171" key="GridCell.Tab.1.right" timestamp="1614339708437">
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614769442191" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614339708437" />
-    <state width="1323" height="214" key="GridCell.Tab.2.bottom" timestamp="1614250801384">
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.2.bottom" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
-    <state width="1323" height="214" key="GridCell.Tab.2.center" timestamp="1614250801384">
+    <state width="1323" height="214" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.2.center" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
-    <state width="1323" height="214" key="GridCell.Tab.2.left" timestamp="1614250801384">
+    <state width="1323" height="214" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.2.left" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
-    <state width="1323" height="214" key="GridCell.Tab.2.right" timestamp="1614250801384">
+    <state width="1323" height="214" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
+    <state width="1323" height="214" key="GridCell.Tab.2.right" timestamp="1614769442192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614250801384" />
+    <state width="1323" height="214" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614769442192" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1614074915142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -236,5 +272,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1613981993515" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

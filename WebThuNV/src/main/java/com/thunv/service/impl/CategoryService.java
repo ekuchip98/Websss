@@ -96,13 +96,9 @@ public class CategoryService implements ICategoryService {
     @Override
     @Transactional
     public void delete(long id) {
-        List<ProductDTO> models = new ArrayList<>();
         CategoryEntity entity = categoryRepository.getOne(id);
         entity.getProducts().forEach(product -> product.getCategories().remove(entity));
-        for (ProductEntity product : entity.getProducts()){
-            models.add(productConverter.toDTO(product));
-        }
-        productService.saveAll(models);
+        productRepository.saveAll(entity.getProducts());
         categoryRepository.delete(entity);
     }
 }

@@ -68,4 +68,5 @@ public class ProductAPI {
         productService.delete(ids);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
 }

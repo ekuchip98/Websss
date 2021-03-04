@@ -14,6 +14,17 @@ public class CustomExceptionHandler {
         return new ErrorResponse(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
+    @ExceptionHandler(ConstraintViolationException.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public ErrorResponse handlerNotFoundException(ConstraintViolationException ex, WebRequest req){
+        return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());
+    }
+
+    @ExceptionHandler(NullPointerException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public ErrorResponse handlerNullPointerException(NullPointerException ex, WebRequest req){
+        return new ErrorResponse(HttpStatus.NOT_FOUND, ex.getMessage());
+    }
     @ExceptionHandler(DuplicateRecordException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ErrorResponse handlerDuplicateRecordException(DuplicateRecordException ex, WebRequest req){

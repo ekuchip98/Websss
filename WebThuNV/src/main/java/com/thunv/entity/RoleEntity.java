@@ -1,5 +1,6 @@
 package com.thunv.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -24,6 +25,7 @@ public class RoleEntity extends BaseEntity{
     @Column(name = "active", length = 4)
     private Integer active;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "roles")
     private List<UserEntity> users = new ArrayList<>();
 }

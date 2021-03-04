@@ -45,7 +45,7 @@ public class CategoryAPI {
     }
 
     @PostMapping
-    public ResponseEntity<CategoryDTO> saveCategory(@RequestBody CategoryDTO model){
+    public ResponseEntity<CategoryDTO> createCategory(@RequestBody CategoryDTO model){
         CategoryDTO categoryDTO = categoryService.save(model);
         return new ResponseEntity<>(categoryDTO, HttpStatus.CREATED);
     }

@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface IProductService {
 
-    void saveAll(List<ProductDTO> models);
     List<ProductDTO> findAll();
     List<ProductDTO> findAll(Pageable pageable);
     ProductDTO findById(long id);

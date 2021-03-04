@@ -50,9 +50,7 @@ public class ProductDetailEntity extends BaseEntity{
     @Column(name = "status", length = 2)
     private Integer status;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
-    @JoinColumn(name = "product_id")
+    @OneToOne(mappedBy = "productDetail")
     private ProductEntity product;
 
 }

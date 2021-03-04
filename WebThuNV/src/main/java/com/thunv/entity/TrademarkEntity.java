@@ -33,6 +33,5 @@ public class TrademarkEntity extends BaseEntity{
     private String title;
 
     @OneToMany(mappedBy = "trademark")
-    @JsonIgnore
     private List<ProductEntity> products = new ArrayList<>();
 }

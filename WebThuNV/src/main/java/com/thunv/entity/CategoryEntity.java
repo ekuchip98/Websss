@@ -26,8 +26,7 @@ public class CategoryEntity extends BaseEntity{
     @Column(name = "status", length = 2)
     private Integer status;
 
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JsonIgnore
+    @ManyToMany
     @JoinTable(name = "category_product",
             joinColumns = @JoinColumn(name = "category_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))

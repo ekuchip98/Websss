@@ -39,15 +39,14 @@ public class ProductEntity extends BaseEntity{
     @Column(name = "description", columnDefinition = "TEXT", length = 2000)
     private String description;
 
-    @OneToOne(mappedBy = "product", fetch = FetchType.LAZY)
+    @OneToOne
+    @JoinColumn(name = "detail_id")
     private ProductDetailEntity productDetail;
 
-    @JsonIgnore
-    @ManyToMany(mappedBy = "products", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "products")
     private List<CategoryEntity> categories = new ArrayList<>();
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
+    @ManyToOne
     @JoinColumn(name = "trademark_id")
     private TrademarkEntity trademark;
 
