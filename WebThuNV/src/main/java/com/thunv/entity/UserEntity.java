@@ -1,6 +1,5 @@
 package com.thunv.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -24,7 +23,7 @@ public class UserEntity extends BaseEntity{
     @Column(name = "image")
     private String image;
 
-    @Column(name = "email")
+    @Column(name = "email", unique = true)
     @NotNull(message = "Email not null")
     @Email(message = "Email invalidate")
     private String email;
@@ -37,7 +36,7 @@ public class UserEntity extends BaseEntity{
     @Column(name = "active", length = 4)
     private Integer active;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
             joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
